@@ -95,7 +95,7 @@ export const profileData: Profile = {
   },
   lab: {
     name: "KAIST ICLab",
-    fullName: "KAIST Interactive Computing Laboratory",
+    fullName: "IBOM Laboratory",
     url: "https://ic.kaist.ac.kr/",
     advisor: "Prof. Uichin Lee"
   },
