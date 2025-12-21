@@ -330,74 +330,86 @@ const Home: NextPage = () => {
               </div>
             </div>
           </div>
+          
+          
 
-          {/* Education and Skills */}
-          <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <div>
-              <h3 className="text-xl font-semibold mb-4 font-lora">Education</h3>
-              <div className="space-y-3">
-                {profileData.education.map((edu, index) => (
-                  <div key={index}>
-                    <p className="font-semibold">
-                      {edu.degree} in{' '}
-                      <a 
-                        href={edu.departmentUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="transition-colors duration-200 font-semibold"
-                        style={{
-                          color: theme.links.department.default,
-                          textDecoration: 'underline',
-                        }}
-                        onMouseEnter={(e) => {
-                          e.currentTarget.style.color = theme.links.department.hover;
-                        }}
-                        onMouseLeave={(e) => {
-                          e.currentTarget.style.color = theme.links.department.default;
-                        }}
-                      >
-                        {edu.department}
-                      </a>
-                    </p>
-                    <p className="text-gray-600">
-                      <a 
-                        href={edu.institutionUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="transition-colors duration-200"
-                        style={{
-                          color: theme.links.university.default,
-                          textDecoration: 'underline',
-                        }}
-                        onMouseEnter={(e) => {
-                          e.currentTarget.style.color = theme.links.university.hover;
-                        }}
-                        onMouseLeave={(e) => {
-                          e.currentTarget.style.color = theme.links.university.default;
-                        }}
-                      >
-                        {edu.institution}
-                      </a>
-                    </p>
-                    <p className="text-gray-500">{edu.year}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div>
-              <h3 className="text-xl font-semibold mb-4 font-lora">Interests</h3>
-              <div className="flex flex-wrap gap-2">
-                {[...(profileData.interests["AI/ML"] || []), ...(profileData.interests["HCI"] || [])].map((interest, idx) => (
-                  <span
-                    key={idx}
-                    className="px-3 py-1 rounded-full text-sm font-medium bg-white text-gray-700 border border-gray-300 hover:bg-gray-50 transition-colors"
-                  >
-                    {interest}
-                  </span>
-                ))}
-              </div>
-            </div>
-          </div>
+
+{/* Education, Interests, and Skills */}
+<div className="mt-16 grid grid-cols-1 lg:grid-cols-3 gap-12">
+  
+  {/* Education */}
+  <div>
+    <h3 className="text-xl font-semibold mb-4 font-lora">Education</h3>
+    <div className="space-y-3">
+      {profileData.education.map((edu, index) => (
+        <div key={index}>
+          <p className="font-semibold">
+            {edu.degree} in{' '}
+            <a
+              href={edu.departmentUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors duration-200 font-semibold underline"
+              style={{ color: theme.links.department.default }}
+              onMouseEnter={(e) => (e.currentTarget.style.color = theme.links.department.hover)}
+              onMouseLeave={(e) => (e.currentTarget.style.color = theme.links.department.default)}
+            >
+              {edu.department}
+            </a>
+          </p>
+          <p className="text-gray-600">
+            <a
+              href={edu.institutionUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors duration-200 underline"
+              style={{ color: theme.links.university.default }}
+              onMouseEnter={(e) => (e.currentTarget.style.color = theme.links.university.hover)}
+              onMouseLeave={(e) => (e.currentTarget.style.color = theme.links.university.default)}
+            >
+              {edu.institution}
+            </a>
+          </p>
+          <p className="text-gray-500">{edu.year}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+
+  {/* Interests */}
+  <div>
+    <h3 className="text-xl font-semibold mb-4 font-lora">Interests</h3>
+    <div className="flex flex-wrap gap-2">
+      {[...(profileData.interests["AI/ML"] || []), ...(profileData.interests["HCI"] || [])].map(
+        (interest, idx) => (
+          <span
+            key={idx}
+            className="px-3 py-1 rounded-full text-sm font-medium bg-white text-gray-700 border border-gray-300 hover:bg-gray-50 transition-colors"
+          >
+            {interest}
+          </span>
+        )
+      )}
+    </div>
+  </div>
+
+  {/* Skills */}
+  <div>
+    <h3 className="text-xl font-semibold mb-4 font-lora">Skills</h3>
+    <div className="flex flex-wrap gap-2">
+      {profileData.skills.map((skill, idx) => (
+        <span
+          key={idx}
+          className="px-3 py-1 rounded-full text-sm font-medium bg-gray-50 text-gray-800 border border-gray-300 hover:bg-gray-100 transition-colors"
+        >
+          {skill}
+        </span>
+      ))}
+    </div>
+  </div>
+
+</div>
+
         </section>
 
         {/* News Section */}
