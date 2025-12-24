@@ -42,10 +42,10 @@ export interface Profile {
 
 export const profileData: Profile = {
   name: "Obasi Oluwatoyosi Yetunde",
-  title: "Digital Health and HCI Researcher",
-  email: "obasi@dgist",
+  title: "Virtual Reality, and Deep learning applications in microsurgery Researcher",
+  email: "olaopin_5@dgist.ac.kr",
   location: "Daegu, Republic of Korea",
-  bio: "Researching signals (physiological, wearable, speech) for digital health and mental well-being | M.S. student @ KAIST ICLab",
+  bio: "Researching signals (physiological, wearable, speech) for digital health and mental well-being | Post Masters Researcher @ DGIST/ Robotic and Mechatronics Engineering",
   image: "/images/photos/profile.jpg",
   socialLinks: {
     github: "https://github.com/yetunde2000",
@@ -55,7 +55,7 @@ export const profileData: Profile = {
   education: [
     {
       degree: "M.Sc.",
-      department: "Graduate School of Data Science",
+      department: "Artigficial Intelligence Graduate School",
       departmentUrl: "https://gsds.kaist.ac.kr/",
       institution: "DGIST",
       institutionUrl: "https://www.dgist.ac.kr/",
@@ -67,22 +67,22 @@ export const profileData: Profile = {
       departmentUrl: "https://ie.unist.ac.kr/",
       institution: "University of Ilorin (UNILORIN)",
       institutionUrl: "https://www.unilorin.edu.ng/",
-      year: "2016.01 - 2021.12"
+      year: "2016.01 - 2021.10"
     }
   ],
-  skills: [ "Python", "R", "MATLAB", "SQL", "Tableau", "TensorFlow", "PyTorch"
+  skills: [ "Python", "Solidworks", "Unity", "Isaac sim", "Latex", "LabVIEW"
   ],
-  about: `I am a master's student at [KAIST ICLab](https://ic.kaist.ac.kr/, color=blue), advised by Prof. Uichin Lee.
+  about: `I am a Post master's student at [KAIST ICLab](https://ic.kaist.ac.kr/, color=blue), advised by Prof. Uichin Lee.
   My research spans various areas of digital health — from modeling human states using multimodal data, to designing evaluative tools.
   While the specific topics differ, they all share a common goal: leveraging everyday data and technology to support better health outcomes.
   Ultimately, I aim to help build systems that make digital health support more effective, interpretable, and adaptable across different contexts.
 `,
   interests: {
     "AI/ML": [
-      "AI Healthcare",
-      "Digital Phenotyping",
-      "Multimodal Data Analysis",
-      "LLM Context Engineering"
+      "Virtual Reality",
+      "Deep Learning & Human-computer Interaction",
+      "Natural Language Processing",
+      "Interaction Design"
     ],
     "HCI": [
       "Visual Analytics",
