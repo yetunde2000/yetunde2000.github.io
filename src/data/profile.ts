@@ -42,7 +42,7 @@ export interface Profile {
 
 export const profileData: Profile = {
   name: "Obasi Oluwatoyosi Yetunde",
-  title: "Virtual Reality, and Deep learning applications in microsurgery Researcher",
+  title: "Researcher in Virtual Reality and Deep Learning for Microsurgical Applications",
   email: "olaopin_5@dgist.ac.kr",
   location: "Daegu, Republic of Korea",
   bio: "Post Masters Researcher @ DGIST/ Robotic and Mechatronics Engineering",
@@ -55,7 +55,7 @@ export const profileData: Profile = {
   education: [
     {
       degree: "M.Sc.",
-      department: "Artigficial Intelligence Graduate School",
+      department: "Artificial Intelligence",
       departmentUrl: "https://gsds.kaist.ac.kr/",
       institution: "DGIST",
       institutionUrl: "https://www.dgist.ac.kr/",
