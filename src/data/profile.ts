@@ -99,5 +99,5 @@ utilizing models such as the Transformer and Time2Vec. I am particularly interes
     url: "https://ibom.dgist.ac.kr/",
     advisor: "Prof. Cheol Song"
   },
-  cvUrl: "/gyuna_cv_2025_4.pdf"
+  cvUrl: "/Obas Yetunde_cv.pdf"
 }; 
