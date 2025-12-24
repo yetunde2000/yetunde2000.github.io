@@ -6,23 +6,39 @@ export interface NewsItem {
 
 export const newsData: NewsItem[] = [
   {
-    date: "2025-09",
-    title: "K-Data Science Conference 2025",
-    description: "I attended [K-Data Science Conference](https://kdatascience.kr/conference/event, color=green) in Daegu, Korea, and received the Creative Research Award 🏆"
+    date: "2025-12",
+    title: "Certificate of Appreciation from DGIST",
+    description: "I was honored to receive a Certificate of Appreciation from DGIST for my contributions to Promotion and media team activities 🎉"
   },
   {
-    date: "2025-04",
-    title: "CHI Conference 2025",
-    description: "I attended [CHI 2025](https://chi2025.acm.org/, color=pink) in Yokohama, Japan 🌸"
+    date: "2025-10",
+    title: "Researcher",
+    description: "I started my position as a Researcher at DGIST🎉"
   },
   {
-    date: "2024-07",
-    title: "SIGCHI Local Chapter",
-    description: "I visited [SIGCHI Korea Local Chapter](https://2024summer.sigchi.kr/, color=blue) summer event 🛳️"
+    date: "2025-08",
+    title: "Conference on Electronics, Semiconductor, and AI South Korea (Poster)",
+    description: "Attended and presented my work at the Conference on Electronics, Semiconductor, and AI 2025 in Gangneung South Korea"
   },
   {
-    date: "2024-02",
-    title: "News will be updated in ICLab",
-    description: "I started my master's program at KAIST, advised by Prof. Uichin Lee 🎊"
+    date: "2025-08",
+    title: "Graduated from DGIST",
+    description: "I completed my M.Sc. in Artificial Intelligence at DGIST 🎓"
+  },
+  {
+    date: "2024-12",
+    title: "AI Summit 2024 Seoul",
+    description: "I attended the AI Summit 2024 Seoul as a delegate representing DGIST"
+  },
+  {
+    date: "2024-06",
+    title: "IEIE 2024 Summer Conference South Korea (Oral)",
+    description: "Attended and presented my work at the IEIE 2024 Summer Conference in Jeju South Korea"
+  }
+  ,
+  {
+    date: "2024-04",
+    title: "KMSE society south korea (Poster).",
+    description: " My work was presented at the KMSE society 2024 conference"
   }
 ]; 
