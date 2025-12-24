@@ -4,40 +4,29 @@ export interface Photo {
 }
 
 export const photosData: Photo[] = [
+
   {
-    src: '/images/photos/photo1.jpg',
-    comment: '2022 | Last Day of Internship @ InterX 🌟'
+    src: '/images/photos/yet4.jpg',
+    comment: ' 2024 | AI Summit 2024 Seoul 📸'
   },
   {
-    src: '/images/photos/photo2.jpg',
-    comment: '2022 | University Team Project 🌺'
+    src: '/images/photos/yet5.jpg',
+    comment: '2024 | Christmas 2025 DGIST🎄'
   },
   {
-    src: '/images/photos/photo3.jpg',
-    comment: '2023 | Korean Institute of Industrial Engineers Conference in Jeju 🍊'
+    src: '/images/photos/yet3.jpg',
+    comment: '2025 | Matester\'s defense 2025 🍂'
   },
   {
-    src: '/images/photos/photo4.jpg',
-    comment: ' 2024 | Graduation Day 🎓'
+    src: '/images/photos/yet2.jpg',
+    comment: '2025 | IEIE Summer Conference 2025 🌊'
   },
   {
-    src: '/images/photos/photo5.jpg',
-    comment: '2024 | KAIST Art Museum 📸'
-  },
-  {
-    src: '/images/photos/photo6.jpg',
-    comment: '2025 | CHI Conference in Yokohama 🌸'
-  },
-  {
-    src: '/images/photos/photo7.jpg',
-    comment: '2025 | CHI Conference in Yokohama 🌸'
-  },
-  {
-    src: '/images/photos/photo8.jpg',
-    comment: '2025 | CHI Conference in Yokohama 🌸'
+    src: '/images/photos/yet1.jpg',
+    comment: '2025 | Trip to Yeosu '
   },
   {
     src: '/images/photos/profile_yetty.jpeg',
-    comment: '2025 |Graduation 🍂'
+    comment: '2025 |Graduation Ceremony 🍂'
   }  
 ]; 
