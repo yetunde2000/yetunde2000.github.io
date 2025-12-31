@@ -59,7 +59,7 @@ export const projectsData: ProjectsData = {
       description:
         "Developed a synthetic data generation pipeline using Isaac Sim to produce controlled motion trajectories with synchronized position and acceleration signals. The dataset was used for pre-training and robustness evaluation of learning-based VR tracking models.",
       startDate: "2024-02",
-      endDate: "2024-08",
+      endDate: "2025-08",
       role: "Simulation and Data Engineering",
       technologies: [
         "Isaac Sim",
@@ -100,8 +100,8 @@ export const projectsData: ProjectsData = {
       title: "Korean–English Neural Machine Translation using Transformers",
       description:
         "Implemented a Transformer-based neural machine translation model for Korean-to-English translation as part of a graduate-level deep learning course. The project explored attention mechanisms, tokenization strategies, and sequence-to-sequence learning.",
-      startDate: "2024-03",
-      endDate: "2024-06",
+      startDate: "2023-08",
+      endDate: "2023-12",
       role: "Model Implementation and Analysis",
       technologies: [
         "Transformer",
