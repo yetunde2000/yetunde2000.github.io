@@ -154,7 +154,7 @@ const Home: NextPage = () => {
         {/* <title>{profileData.name} - Personal Homepage</title> */}
         <title>{`${profileData.name} - Personal Homepage`}</title>
         <meta name="description" content={`${profileData.name}'s personal homepage`} />
-        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="icon" type="image/png" href="/favicon2.png" />
       </Head>
 
       {/* Header with Lora font for name */}
