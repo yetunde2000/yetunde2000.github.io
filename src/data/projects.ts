@@ -18,6 +18,8 @@ export interface ProjectsData {
   past: Project[];
 }
 
+
+
 export const projectsData: ProjectsData = {
   current: [
     {
@@ -33,6 +35,22 @@ export const projectsData: ProjectsData = {
         "Unity",
         "Isaac Sim",
         "Time-Series Modeling"],
+      status: "completed",
+      // image: "/images/projects/mental_llm_eval.png"
+    },
+     {
+      title: "Custom VR–IMU Housing for High-Precision Motion Experiments",
+      description:
+        "Designed and fabricated a custom mechanical housing to rigidly mount a VR controller and an external IMU sensor onto a motorized linear stage. The design ensures repeatable sensor alignment, mechanical stability, and minimal rotational offset for precision motion tracking experiments.",
+      startDate: "2024-09",
+      endDate: "2024-11",
+      role: "Mechanical Design and System Integration",
+      technologies: [
+        "SolidWorks",
+        "3D Printing",
+        "VR Hardware",
+        "IMU Sensors",
+        "Mechanical Design"],
       status: "completed",
       // image: "/images/projects/mental_llm_eval.png"
     },
@@ -75,11 +93,8 @@ export const projectsData: ProjectsData = {
         "Isaac Sim",
         "Time-Series Data"],
       status: "completed",
-      image: "/images/projects/lg_overview.png",
-      links: {
-        github: "https://github.com/Kaist-ICLab/multimodal-mh-detection",
-        // demo: "https://www.researchgate.net/publication/3710000000000000000"
-      }
+      //image: "/images/projects/lg_overview.png",
+      
     },
     {
       title: "Korean–English Neural Machine Translation using Transformers",
@@ -94,10 +109,8 @@ export const projectsData: ProjectsData = {
         "Natural Language Processing",
         "Sequence-to-Sequence Learning"],
       status: "completed",
-      image: "/images/projects/regulation.png",
-      links: {
-        github: "https://github.com/Kaist-ICLab/EmoWorker"
-      }
+      //image: "/images/projects/regulation.png",
+      
     },
     {
       title: "Interactive Reporting System for Digital Health Data",
