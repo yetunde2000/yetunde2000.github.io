@@ -944,7 +944,7 @@ const Home: NextPage = () => {
 
         {/* Footer */}
         <footer className="mt-16 pb-8 text-center text-gray-500">
-          <p>Copyright © 2025 AIM. All rights reserved. | Last updated on December 11, 2025.</p>
+          <p>Copyright © 2025 Obasi Yetunde. All rights reserved. | Last updated on December 11, 2025.</p>
         </footer>
       </main>
     </div>
