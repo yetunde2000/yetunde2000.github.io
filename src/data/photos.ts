@@ -6,10 +6,6 @@ export interface Photo {
 export const photosData: Photo[] = [
 
   {
-    src: '/images/photos/profile_yetty.jpeg',
-    comment: '2025 |Graduation Ceremony 🍂'
-  },
-  {
     src: '/images/photos/yet4.jpg',
     comment: ' 2024 | AI Summit 2024 Seoul 📸'
   },
@@ -26,7 +22,11 @@ export const photosData: Photo[] = [
     comment: '2025 | Trip to Yeosu '
   },
   {
+    src: '/images/photos/profile_yetty.jpeg',
+    comment: '2025 |Graduation Ceremony 🍂'
+  },
+  {
     src: '/images/photos/yet5.jpg',
-    comment: '2024 | Christmas 2025 DGIST🎄'
+    comment: '2025 | Christmas 2025 DGIST🎄'
   },
 ]; 
