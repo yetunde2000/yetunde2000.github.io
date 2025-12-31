@@ -58,8 +58,8 @@ export const projectsData: ProjectsData = {
       title: "Synthetic Trajectory Generation for VR Sensor Fusion",
       description:
         "Developed a synthetic data generation pipeline using Isaac Sim to produce controlled motion trajectories with synchronized position and acceleration signals. The dataset was used for pre-training and robustness evaluation of learning-based VR tracking models.",
-      startDate: "2024-02",
-      endDate: "2025-08",
+      startDate: "2024-12",
+      endDate: "2025-12",
       role: "Simulation and Data Engineering",
       technologies: [
         "Isaac Sim",
@@ -70,13 +70,20 @@ export const projectsData: ProjectsData = {
       status: "completed",
       // image: "/images/projects/multi_agent_coaching.png"
     },
-   
+    // {
+    //   title: "Enhancing Signal Quality Indices for Real-World PPG Signals",
+    //   description: "Improving the reliability of physiological data through real-world PPG signal quality assessment",
+    //   startDate: "2025-03",
+    //   role: "Project Lead",
+    //   technologies: ["Python", "PyTorch", "Signal Processing"],
+    //   image: "/images/projects/ppg.png",
+    // },
     {
       title: "Time-Series Learning for Real and Synthetic VR Motion Data",
       description:
         "Trained and evaluated LSTM and Transformer models on time-series motion data collected from Unity-based real-world experiments and synthetic trajectories generated in Isaac Sim. The project focused on improving robustness and generalization across simulation and real-world environments.",
-      startDate: "2023-09",
-      endDate: "2024-12",
+      startDate: "2023-02",
+      endDate: "2025-12",
       role: "Model Training and Analysis",
       technologies: [
         "PyTorch",
@@ -94,7 +101,7 @@ export const projectsData: ProjectsData = {
       description:
         "Implemented a Transformer-based neural machine translation model for Korean-to-English translation as part of a graduate-level deep learning course. The project explored attention mechanisms, tokenization strategies, and sequence-to-sequence learning.",
       startDate: "2023-08",
-      endDate: "2023-12",
+      endDate: "2024-12",
       role: "Model Implementation and Analysis",
       technologies: [
         "Transformer",
@@ -105,8 +112,18 @@ export const projectsData: ProjectsData = {
       //image: "/images/projects/regulation.png",
       
     },
-    
+    {
+      title: "Interactive Reporting System for Digital Health Data",
+      description: "Designing an interactive reporting system that helps evaluators interpret and explore digital health data with clarity and flexibility.",
+      startDate: "2024-08",
+      endDate: "2025-05",
+      role: "Design and Research Lead",
+      technologies: ["Figma", "Visualization"],
+      status: "completed",
+      //image: "/images/projects/report.png",
+    },
     
   ],
-  
+  past: [
+  ]
 }; 
