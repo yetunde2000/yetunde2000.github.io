@@ -112,17 +112,8 @@ export const projectsData: ProjectsData = {
       //image: "/images/projects/regulation.png",
       
     },
-    {
-      title: "",
-      description: "",
-      startDate: "",
-      endDate: "",
-      role: "",
-      technologies: [""],
-      status: "completed",
-      //image: "/images/projects/report.png",
-   },
-    
+  
+
   ],
   past: [
   ]
